@@ -1,0 +1,25 @@
+html, body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#map_canvas {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	left: 0;
+}
+
+#map_io {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	right: 0;
+}
+
+#geoJSON {
+	height: 100%;
+	width: 100%;
+}
